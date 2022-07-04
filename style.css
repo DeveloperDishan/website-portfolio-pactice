@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -29,6 +30,10 @@ section {
     width: 80%;
 }
 
+.helf-width p {
+    padding-right: 77px;
+}
+
 .link-btn {
     text-decoration: none;
     background-image: -moz-linear-gradient(orange, tomato);
@@ -40,4 +45,10 @@ section {
     -o-border-radius: 5px;
     color: #fff;
     font-weight: 400;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
